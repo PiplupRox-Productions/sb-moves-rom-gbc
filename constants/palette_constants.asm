@@ -214,6 +214,7 @@ IF GEN_2_GRAPHICS
 	const PAL_DRAGONITE  ; $B9
 	const PAL_MEWTWO     ; $BA
 	const PAL_MEW        ; $BB
+	const PAL_DEBUGMON   
 	const PAL_YOUNGSTER     ; $BC
 	const PAL_BUGCATCHER    ; $BD
 	const PAL_LASS          ; $BE
@@ -262,5 +263,6 @@ IF GEN_2_GRAPHICS
 	const PAL_AGATHA        ; $E9
 	const PAL_LANCE         ; $EA
 	const PAL_HERO          ; $EB
+	
 ENDC
 DEF NUM_SGB_PALS EQU const_value

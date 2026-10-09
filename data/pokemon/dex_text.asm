@@ -1507,3 +1507,13 @@ _VictreebelDexEntry::
 	next "has ever returned"
 	next "from there"
 	dex
+	
+_DebugmoonDexEntry::
+	text "This mutation of"
+	next "TENTACOOL is used"
+	next "for testing new"
+
+	page "moves. Its name"
+	next "is unfortunate,"
+	next "yet accidental"
+	dex

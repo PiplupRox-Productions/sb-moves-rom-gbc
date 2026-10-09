@@ -537,34 +537,36 @@ AnimationTileset2Palettes:
 	INCBIN "color/data/animtileset2palettes.bin"
 
 TypeColorTable: ; Used for a select few sprites to be colorized based on attack type
-	table_width 1, TypeColorTable
-	db 0 ; NORMAL EQU $00
-	db 0 ; FIGHTING EQU $01
-	db 0 ; FLYING EQU $02
-	db 7 ; POISON EQU $03
-	db 3 ; GROUND EQU $04
-	db 3 ; ROCK EQU $05
-	db 0
-	db 5 ; BUG EQU $07
-	db 7 ; GHOST EQU $08
-	db 0
-	db 0
-	db 0
-	db 0
-	db 0
-	db 0
-	db 0
-	db 0
-	db 0
-	db 0
-	db 0
-	db 2 ; FIRE EQU $14
-	db 1 ; WATER EQU $15
-	db 5 ; GRASS EQU $16
-	db 4 ; ELECTRIC EQU $17
-	db 7 ; PSYCHIC EQU $18
-	db 6 ; ICE EQU $19
-	db 1 ; DRAGON EQU $1A
-	assert_table_length NUM_TYPES
+    table_width 1, TypeColorTable
+    db 0 ; NORMAL EQU $00
+    db 0 ; FIGHTING EQU $01
+    db 0 ; FLYING EQU $02
+    db 7 ; POISON EQU $03
+    db 3 ; GROUND EQU $04
+    db 3 ; ROCK EQU $05
+    db 0 ; BIRD
+    db 5 ; BUG EQU $07
+    db 7 ; GHOST EQU $08
+    db 0 ; STEEL EQU $09
+    db 0
+    db 0
+    db 0
+    db 0
+    db 0
+    db 0
+    db 0
+    db 0
+    db 0
+    db 7 ; CURSE_TYPE EQU $13
+    db 2 ; FIRE EQU $14
+    db 1 ; WATER EQU $15
+    db 5 ; GRASS EQU $16
+    db 4 ; ELECTRIC EQU $17
+    db 7 ; PSYCHIC EQU $18
+    db 6 ; ICE EQU $19
+    db 1 ; DRAGON EQU $1A
+    db 0 ; DARK EQU $1B
+    db 7 ; FAIRY EQU $1C Ideally would be pink... Maybe temporarily load in a Pink Palette to the Purple slot?
+    assert_table_length NUM_TYPES
 
 INCLUDE "color/data/spritepalettes.asm"

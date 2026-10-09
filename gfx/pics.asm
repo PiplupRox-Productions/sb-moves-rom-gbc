@@ -249,6 +249,10 @@ ENDC
 
 ; Inserted pokemon images go here
 
+SECTION "Pics 6", ROMX
+;MewPicFront:: INCBIN "gfx/pokemon/front/mew.pic"
+;MewPicBack::  INCBIN "gfx/pokemon/back/mewb.pic"
+
 SECTION "Pics 7", ROMX
 
 IF GEN_2_GRAPHICS
