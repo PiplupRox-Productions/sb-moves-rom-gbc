@@ -165,6 +165,7 @@ AttackAnimationPointers:
 	dw SlashAnim
 	dw SubstituteAnim
 	dw SynthesisAnim
+	dw WhirlpoolAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -521,6 +522,7 @@ HydroPumpAnim:
 	battle_anim HYDRO_PUMP, SUBANIM_0_WATER_COLUMNS, 0, 6
 	db -1 ; end
 
+WhirlpoolAnim:
 SurfAnim:
 	battle_anim SURF, SE_WATER_DROPLETS_EVERYWHERE
 	battle_anim HYDRO_PUMP, SUBANIM_0_WATER_COLUMNS, 0, 6

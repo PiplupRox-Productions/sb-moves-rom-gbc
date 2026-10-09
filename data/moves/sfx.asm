@@ -167,5 +167,6 @@ MoveSoundTable:
 	db SFX_BATTLE_2C,          $d8, $04 ; SUBSTITUTE
 	db SFX_BATTLE_33,          $00, $80 ; SYNTHESIS
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
+	db SFX_BATTLE_2C,          $00, $80 ; WHIRLPOOL
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

@@ -166,5 +166,6 @@ MoveNames::
 	li "SLASH"
 	li "SUBSTITUTE"
 	li "SYNTHESIS"
+	li "WHIRLPOOL"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

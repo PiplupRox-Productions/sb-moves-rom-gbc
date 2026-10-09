@@ -176,5 +176,6 @@ Moves:
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,       100, 10
 	move SYNTHESIS,    HEAL_EFFECT,					 0, GRASS,        100,  5
+	move WHIRLPOOL,    TRAPPING_EFFECT,             15, WATER,          70, 15	
 	move STRUGGLE,     RECOIL_EFFECT,               50, NORMAL,       100, 10
 	assert_table_length NUM_ATTACKS

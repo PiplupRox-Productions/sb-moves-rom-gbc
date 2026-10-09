@@ -171,7 +171,8 @@
 	const SLASH        ; a3
 	const SUBSTITUTE   ; a4
 	const SYNTHESIS    ; a5
-	const STRUGGLE     ; a6
+	const WHIRLPOOL    ; a6
+	const STRUGGLE     ; was a5
 DEF NUM_ATTACKS EQU const_value - 1
 
 DEF CANNOT_MOVE EQU $ff
